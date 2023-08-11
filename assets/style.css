@@ -6,7 +6,6 @@
 
 .grid-container img {
   width: 400px;
-  display: block;
   align-items: center;
   border: 10 px green;
 }
