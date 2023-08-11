@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Desafio2</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <!-- trabajo 1 -->
+
+  <body>
+    <div class="grid-container">
+      <div class="desafio-1">
+        <h1>Borde</h1>
+        <img id="car-img" src="./assets/images/Aston-Martin.jpg" alt="image1" />
+        <div class="card-content">
+          <h3>Precio: <span id="product-price">$ 200.000</span></h3>
+        </div>
+      </div>
+    </div>
+    <!-- trabajo 2 -->
+
+    <div class="desafio 2">
+      <h1>Stickers</h1>
+
+      <div class="area-desafio2">
+        <div class="sticker-container">
+          <img id="sticker1" src="./assets/images/funko-pokemon-horsea.jpg" alt="sticker1" />
+          <label for="sticker1">Cantidad</label>
+          <input id="sticker1" type="number" min="0" max="10" />
+        </div>
+        <div class="sticker-container">
+          <img id="sticker2" src="./assets/images/funko-charizard.webp" alt="" />
+          <label for="sticker2">Cantidad</label>
+          <input id="sticker2" type="number" min="0" max="10" />
+        </div>
+
+        <div class="sticker-container">
+          <img id="sticker3" src="./assets/images/funko-dragonite.webp" alt="" />
+          <label for="sticker3">Cantidad</label>
+          <input id="sticker3" type="number" min="0" max="10" />
+        </div>
+      </div>
+      <button id="calcularBtn">Calcular</button>
+      <p id="result"></p>
+    </div>
+
+    <!-- trabajo 3 -->
+
+    <div class="desafio-3">
+      <h1>Ingresar la contraseña</h1>
+
+      <p>Ingresa la clave correcta para ser parte del club</p>
+
+      <select name="number1" id="primer-digito">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select name="number2" id="segundo-digito">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+
+      <select name="number3" id="tercer-digito">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+
+      <button id="ingresarBtn">Enter</button>
+      <p id="resultado"></p>
+    </div>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
